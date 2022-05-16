@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 90%;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 5px 5px 5px rgb(220, 220, 220, 0.8);
+    margin-top: 10%;
+    margin-bottom: 20%;
+    background: #F0FFFF;
+}
+
+header {
+    background: #00BFFF;
+    color: white;
+    height: 80px;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+fieldset {
+    width: 85%;
+    margin: 10px;
+}
+
+.btn-calcul {
+    border-style: none;
+    background: #00BFFF;
+    color: white;
+    font-weight: bold;
+    width: 60%;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 3%;
+}
+
+footer {
+    height: 80px;
+    background: #00BFFF;
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}

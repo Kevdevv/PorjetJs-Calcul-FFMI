@@ -8,6 +8,34 @@
     <title>Calculator FFMI</title>
 </head>
 <body>
+
+    <main class="all">
+        <section class="card">
+            <header>
+                <h1>Calcul ton FFMI</h1>            
+            </header>
+            <form>
+                <fieldset>
+                    <legend>Taille</legend>
+                    <input type="number" id="tall" name="tall">
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Poids</legend>
+                    <input type="number" id="weight" name="weight">
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Taux de masse grasse</legend>
+                    <input type="number" id="body-fat" name="body-fat">
+                </fieldset>
+                <button type="button" class="btn-calcul">Calculer</button>        
+            </form>
+            <footer>
+                <span class="result">Voici le resultat</span>
+            </footer>   
+        </section>    
+    </main>
  <script> src="script.js"</script>   
 </body>
 </html>
