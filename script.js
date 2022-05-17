@@ -14,18 +14,12 @@ function calculMass() {
      }
 
      let result = ffmi()
-     
-     let button = document.getElementById('btn-calcul')
-     
-     function evenement() {
-          calculMass()
-     }
-     
-     button.addEventListener('click', evenement)
-     document.getElementById('result-total').innerText = result + ' de FFMI'
+
+
+     document.getElementById('result-total').innerHTML = result + ' de FFMI'
 }
 
-
-
-
-
+let btn = document.getElementById('btn-calcul');
+btn.addEventListener('click', function () {
+     calculMass()
+})
