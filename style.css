@@ -14,11 +14,10 @@ body {
 
 .card {
     width: 90%;
-    border-radius: 15px 15px 0 0;
+    border-radius: 15px 15px 15px 15px;
     box-shadow: 5px 5px 5px rgb(220, 220, 220, 0.8);
-    margin-top: 10%;
-    margin-bottom: 20%;
     background: #F0FFFF;
+    margin-top: 2%;
 }
 
 header {
@@ -67,4 +66,22 @@ footer {
     justify-content: center;
     color: white;
     font-weight: bold;
+    border-radius: 0 0 15px 15px;
+}
+
+fieldset {
+    border-radius: 10px;
+    border-color: #00BFFF;
+}
+
+legend {
+    color: gray;
+}
+
+.btn-calcul:active {
+    background: #007bff;
+}
+
+.btn-calcul:hover {
+    cursor: pointer;
 }
