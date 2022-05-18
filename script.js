@@ -25,4 +25,4 @@ btn.addEventListener('click', function () {
 })
 
 
-//Lors d'un click sur le bouton calcul sans aucune valeur, afficher veuillez rentrer vos valeur au lieu du vieux NaN
+//Lors d'un click sur le bouton calcul sans aucune valeur, afficher veuillez rentrer vos valeur au lieu du vieux NaNooo
