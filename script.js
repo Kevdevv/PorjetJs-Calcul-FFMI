@@ -16,9 +16,9 @@ function calculMass() {
      let result = Math.round(ffmi() * 100) / 100   
 
           if (tall.value, weight.value, bodyfat.value == 0) {
+              
                document.getElementById('result-total').innerHTML ='Veuillez remlpir tous les champs'
           } else {
-
                document.getElementById('result-total').innerHTML = result + ' de FFMI'
           }
 }
@@ -27,6 +27,3 @@ let btn = document.getElementById('btn-calcul');
 btn.addEventListener('click', function () {
      calculMass()
 })
-
-
-//Lors d'un click sur le bouton calcul sans aucune valeur, afficher veuillez rentrer vos valeur au lieu du vieux NaN
